@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F9C5EEF1EA0FB34003BD61B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C5EEE1EA0FB34003BD61B /* AppDelegate.swift */; };
+		2F9C5EF11EA0FB34003BD61B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C5EF01EA0FB34003BD61B /* FirstViewController.swift */; };
+		2F9C5EF31EA0FB34003BD61B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C5EF21EA0FB34003BD61B /* SecondViewController.swift */; };
+		2F9C5EF61EA0FB34003BD61B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C5EF41EA0FB34003BD61B /* Main.storyboard */; };
+		2F9C5EF81EA0FB34003BD61B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C5EF71EA0FB34003BD61B /* Assets.xcassets */; };
+		2F9C5EFB1EA0FB34003BD61B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C5EF91EA0FB34003BD61B /* LaunchScreen.storyboard */; };
+		2F9C5F061EA0FB34003BD61B /* TaxiDelSolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C5F051EA0FB34003BD61B /* TaxiDelSolTests.swift */; };
+		2F9C5F111EA0FB34003BD61B /* TaxiDelSolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C5F101EA0FB34003BD61B /* TaxiDelSolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F9C5F021EA0FB34003BD61B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F9C5EE31EA0FB34003BD61B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F9C5EEA1EA0FB34003BD61B;
+			remoteInfo = TaxiDelSol;
+		};
+		2F9C5F0D1EA0FB34003BD61B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F9C5EE31EA0FB34003BD61B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F9C5EEA1EA0FB34003BD61B;
+			remoteInfo = TaxiDelSol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F9C5EEB1EA0FB34003BD61B /* TaxiDelSol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiDelSol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9C5EEE1EA0FB34003BD61B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F9C5EF01EA0FB34003BD61B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2F9C5EF21EA0FB34003BD61B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2F9C5EF51EA0FB34003BD61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F9C5EF71EA0FB34003BD61B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F9C5EFA1EA0FB34003BD61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F9C5EFC1EA0FB34003BD61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F9C5F011EA0FB34003BD61B /* TaxiDelSolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiDelSolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9C5F051EA0FB34003BD61B /* TaxiDelSolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiDelSolTests.swift; sourceTree = "<group>"; };
+		2F9C5F071EA0FB34003BD61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F9C5F0C1EA0FB34003BD61B /* TaxiDelSolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiDelSolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9C5F101EA0FB34003BD61B /* TaxiDelSolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiDelSolUITests.swift; sourceTree = "<group>"; };
+		2F9C5F121EA0FB34003BD61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F9C5EE81EA0FB34003BD61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9C5EFE1EA0FB34003BD61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9C5F091EA0FB34003BD61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F9C5EE21EA0FB34003BD61B = {
+			isa = PBXGroup;
+			children = (
+				2F9C5EED1EA0FB34003BD61B /* TaxiDelSol */,
+				2F9C5F041EA0FB34003BD61B /* TaxiDelSolTests */,
+				2F9C5F0F1EA0FB34003BD61B /* TaxiDelSolUITests */,
+				2F9C5EEC1EA0FB34003BD61B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F9C5EEC1EA0FB34003BD61B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C5EEB1EA0FB34003BD61B /* TaxiDelSol.app */,
+				2F9C5F011EA0FB34003BD61B /* TaxiDelSolTests.xctest */,
+				2F9C5F0C1EA0FB34003BD61B /* TaxiDelSolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F9C5EED1EA0FB34003BD61B /* TaxiDelSol */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C5EEE1EA0FB34003BD61B /* AppDelegate.swift */,
+				2F9C5EF01EA0FB34003BD61B /* FirstViewController.swift */,
+				2F9C5EF21EA0FB34003BD61B /* SecondViewController.swift */,
+				2F9C5EF41EA0FB34003BD61B /* Main.storyboard */,
+				2F9C5EF71EA0FB34003BD61B /* Assets.xcassets */,
+				2F9C5EF91EA0FB34003BD61B /* LaunchScreen.storyboard */,
+				2F9C5EFC1EA0FB34003BD61B /* Info.plist */,
+			);
+			path = TaxiDelSol;
+			sourceTree = "<group>";
+		};
+		2F9C5F041EA0FB34003BD61B /* TaxiDelSolTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C5F051EA0FB34003BD61B /* TaxiDelSolTests.swift */,
+				2F9C5F071EA0FB34003BD61B /* Info.plist */,
+			);
+			path = TaxiDelSolTests;
+			sourceTree = "<group>";
+		};
+		2F9C5F0F1EA0FB34003BD61B /* TaxiDelSolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C5F101EA0FB34003BD61B /* TaxiDelSolUITests.swift */,
+				2F9C5F121EA0FB34003BD61B /* Info.plist */,
+			);
+			path = TaxiDelSolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F9C5EEA1EA0FB34003BD61B /* TaxiDelSol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9C5F151EA0FB34003BD61B /* Build configuration list for PBXNativeTarget "TaxiDelSol" */;
+			buildPhases = (
+				2F9C5EE71EA0FB34003BD61B /* Sources */,
+				2F9C5EE81EA0FB34003BD61B /* Frameworks */,
+				2F9C5EE91EA0FB34003BD61B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxiDelSol;
+			productName = TaxiDelSol;
+			productReference = 2F9C5EEB1EA0FB34003BD61B /* TaxiDelSol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F9C5F001EA0FB34003BD61B /* TaxiDelSolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9C5F181EA0FB34003BD61B /* Build configuration list for PBXNativeTarget "TaxiDelSolTests" */;
+			buildPhases = (
+				2F9C5EFD1EA0FB34003BD61B /* Sources */,
+				2F9C5EFE1EA0FB34003BD61B /* Frameworks */,
+				2F9C5EFF1EA0FB34003BD61B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F9C5F031EA0FB34003BD61B /* PBXTargetDependency */,
+			);
+			name = TaxiDelSolTests;
+			productName = TaxiDelSolTests;
+			productReference = 2F9C5F011EA0FB34003BD61B /* TaxiDelSolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F9C5F0B1EA0FB34003BD61B /* TaxiDelSolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9C5F1B1EA0FB34003BD61B /* Build configuration list for PBXNativeTarget "TaxiDelSolUITests" */;
+			buildPhases = (
+				2F9C5F081EA0FB34003BD61B /* Sources */,
+				2F9C5F091EA0FB34003BD61B /* Frameworks */,
+				2F9C5F0A1EA0FB34003BD61B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F9C5F0E1EA0FB34003BD61B /* PBXTargetDependency */,
+			);
+			name = TaxiDelSolUITests;
+			productName = TaxiDelSolUITests;
+			productReference = 2F9C5F0C1EA0FB34003BD61B /* TaxiDelSolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F9C5EE31EA0FB34003BD61B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Efim Polevoi";
+				TargetAttributes = {
+					2F9C5EEA1EA0FB34003BD61B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VN6H2JZ3DV;
+						ProvisioningStyle = Automatic;
+					};
+					2F9C5F001EA0FB34003BD61B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VN6H2JZ3DV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F9C5EEA1EA0FB34003BD61B;
+					};
+					2F9C5F0B1EA0FB34003BD61B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VN6H2JZ3DV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F9C5EEA1EA0FB34003BD61B;
+					};
+				};
+			};
+			buildConfigurationList = 2F9C5EE61EA0FB34003BD61B /* Build configuration list for PBXProject "TaxiDelSol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F9C5EE21EA0FB34003BD61B;
+			productRefGroup = 2F9C5EEC1EA0FB34003BD61B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F9C5EEA1EA0FB34003BD61B /* TaxiDelSol */,
+				2F9C5F001EA0FB34003BD61B /* TaxiDelSolTests */,
+				2F9C5F0B1EA0FB34003BD61B /* TaxiDelSolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F9C5EE91EA0FB34003BD61B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9C5EFB1EA0FB34003BD61B /* LaunchScreen.storyboard in Resources */,
+				2F9C5EF81EA0FB34003BD61B /* Assets.xcassets in Resources */,
+				2F9C5EF61EA0FB34003BD61B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9C5EFF1EA0FB34003BD61B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9C5F0A1EA0FB34003BD61B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F9C5EE71EA0FB34003BD61B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9C5EF31EA0FB34003BD61B /* SecondViewController.swift in Sources */,
+				2F9C5EEF1EA0FB34003BD61B /* AppDelegate.swift in Sources */,
+				2F9C5EF11EA0FB34003BD61B /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9C5EFD1EA0FB34003BD61B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9C5F061EA0FB34003BD61B /* TaxiDelSolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9C5F081EA0FB34003BD61B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9C5F111EA0FB34003BD61B /* TaxiDelSolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F9C5F031EA0FB34003BD61B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F9C5EEA1EA0FB34003BD61B /* TaxiDelSol */;
+			targetProxy = 2F9C5F021EA0FB34003BD61B /* PBXContainerItemProxy */;
+		};
+		2F9C5F0E1EA0FB34003BD61B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F9C5EEA1EA0FB34003BD61B /* TaxiDelSol */;
+			targetProxy = 2F9C5F0D1EA0FB34003BD61B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F9C5EF41EA0FB34003BD61B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F9C5EF51EA0FB34003BD61B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F9C5EF91EA0FB34003BD61B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F9C5EFA1EA0FB34003BD61B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F9C5F131EA0FB34003BD61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F9C5F141EA0FB34003BD61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F9C5F161EA0FB34003BD61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VN6H2JZ3DV;
+				INFOPLIST_FILE = TaxiDelSol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = efim.TaxiDelSol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2F9C5F171EA0FB34003BD61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VN6H2JZ3DV;
+				INFOPLIST_FILE = TaxiDelSol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = efim.TaxiDelSol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2F9C5F191EA0FB34003BD61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VN6H2JZ3DV;
+				INFOPLIST_FILE = TaxiDelSolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = efim.TaxiDelSolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxiDelSol.app/TaxiDelSol";
+			};
+			name = Debug;
+		};
+		2F9C5F1A1EA0FB34003BD61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VN6H2JZ3DV;
+				INFOPLIST_FILE = TaxiDelSolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = efim.TaxiDelSolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxiDelSol.app/TaxiDelSol";
+			};
+			name = Release;
+		};
+		2F9C5F1C1EA0FB34003BD61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VN6H2JZ3DV;
+				INFOPLIST_FILE = TaxiDelSolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = efim.TaxiDelSolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TaxiDelSol;
+			};
+			name = Debug;
+		};
+		2F9C5F1D1EA0FB34003BD61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VN6H2JZ3DV;
+				INFOPLIST_FILE = TaxiDelSolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = efim.TaxiDelSolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TaxiDelSol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F9C5EE61EA0FB34003BD61B /* Build configuration list for PBXProject "TaxiDelSol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9C5F131EA0FB34003BD61B /* Debug */,
+				2F9C5F141EA0FB34003BD61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F9C5F151EA0FB34003BD61B /* Build configuration list for PBXNativeTarget "TaxiDelSol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9C5F161EA0FB34003BD61B /* Debug */,
+				2F9C5F171EA0FB34003BD61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F9C5F181EA0FB34003BD61B /* Build configuration list for PBXNativeTarget "TaxiDelSolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9C5F191EA0FB34003BD61B /* Debug */,
+				2F9C5F1A1EA0FB34003BD61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F9C5F1B1EA0FB34003BD61B /* Build configuration list for PBXNativeTarget "TaxiDelSolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9C5F1C1EA0FB34003BD61B /* Debug */,
+				2F9C5F1D1EA0FB34003BD61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F9C5EE31EA0FB34003BD61B /* Project object */;
+}
