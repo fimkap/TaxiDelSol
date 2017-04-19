@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F1E01C81EA53FA600FE504A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1E01C71EA53FA600FE504A /* MapKit.framework */; };
 		2F9C5EEF1EA0FB34003BD61B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C5EEE1EA0FB34003BD61B /* AppDelegate.swift */; };
 		2F9C5EF11EA0FB34003BD61B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C5EF01EA0FB34003BD61B /* FirstViewController.swift */; };
-		2F9C5EF31EA0FB34003BD61B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C5EF21EA0FB34003BD61B /* SecondViewController.swift */; };
+		2F9C5EF31EA0FB34003BD61B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C5EF21EA0FB34003BD61B /* MapViewController.swift */; };
 		2F9C5EF61EA0FB34003BD61B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C5EF41EA0FB34003BD61B /* Main.storyboard */; };
 		2F9C5EF81EA0FB34003BD61B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C5EF71EA0FB34003BD61B /* Assets.xcassets */; };
 		2F9C5EFB1EA0FB34003BD61B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C5EF91EA0FB34003BD61B /* LaunchScreen.storyboard */; };
@@ -35,10 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F1E01C71EA53FA600FE504A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2F9C5EEB1EA0FB34003BD61B /* TaxiDelSol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiDelSol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F9C5EEE1EA0FB34003BD61B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F9C5EF01EA0FB34003BD61B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2F9C5EF21EA0FB34003BD61B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2F9C5EF21EA0FB34003BD61B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		2F9C5EF51EA0FB34003BD61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F9C5EF71EA0FB34003BD61B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F9C5EFA1EA0FB34003BD61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F1E01C81EA53FA600FE504A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F1E01C61EA53FA600FE504A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F1E01C71EA53FA600FE504A /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2F9C5EE21EA0FB34003BD61B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +94,7 @@
 				2F9C5F041EA0FB34003BD61B /* TaxiDelSolTests */,
 				2F9C5F0F1EA0FB34003BD61B /* TaxiDelSolUITests */,
 				2F9C5EEC1EA0FB34003BD61B /* Products */,
+				2F1E01C61EA53FA600FE504A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +113,7 @@
 			children = (
 				2F9C5EEE1EA0FB34003BD61B /* AppDelegate.swift */,
 				2F9C5EF01EA0FB34003BD61B /* FirstViewController.swift */,
-				2F9C5EF21EA0FB34003BD61B /* SecondViewController.swift */,
+				2F9C5EF21EA0FB34003BD61B /* MapViewController.swift */,
 				2F9C5EF41EA0FB34003BD61B /* Main.storyboard */,
 				2F9C5EF71EA0FB34003BD61B /* Assets.xcassets */,
 				2F9C5EF91EA0FB34003BD61B /* LaunchScreen.storyboard */,
@@ -198,6 +210,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = VN6H2JZ3DV;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					2F9C5F001EA0FB34003BD61B = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -265,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F9C5EF31EA0FB34003BD61B /* SecondViewController.swift in Sources */,
+				2F9C5EF31EA0FB34003BD61B /* MapViewController.swift in Sources */,
 				2F9C5EEF1EA0FB34003BD61B /* AppDelegate.swift in Sources */,
 				2F9C5EF11EA0FB34003BD61B /* FirstViewController.swift in Sources */,
 			);
@@ -516,6 +533,7 @@
 				2F9C5F171EA0FB34003BD61B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F9C5F181EA0FB34003BD61B /* Build configuration list for PBXNativeTarget "TaxiDelSolTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +542,7 @@
 				2F9C5F1A1EA0FB34003BD61B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F9C5F1B1EA0FB34003BD61B /* Build configuration list for PBXNativeTarget "TaxiDelSolUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +551,7 @@
 				2F9C5F1D1EA0FB34003BD61B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
