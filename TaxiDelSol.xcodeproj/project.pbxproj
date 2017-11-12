@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2F1E01C81EA53FA600FE504A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1E01C71EA53FA600FE504A /* MapKit.framework */; };
 		2F9C5EEF1EA0FB34003BD61B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C5EEE1EA0FB34003BD61B /* AppDelegate.swift */; };
-		2F9C5EF11EA0FB34003BD61B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C5EF01EA0FB34003BD61B /* FirstViewController.swift */; };
+		2F9C5EF11EA0FB34003BD61B /* TaxiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C5EF01EA0FB34003BD61B /* TaxiViewController.swift */; };
 		2F9C5EF31EA0FB34003BD61B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C5EF21EA0FB34003BD61B /* MapViewController.swift */; };
 		2F9C5EF61EA0FB34003BD61B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C5EF41EA0FB34003BD61B /* Main.storyboard */; };
 		2F9C5EF81EA0FB34003BD61B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C5EF71EA0FB34003BD61B /* Assets.xcassets */; };
@@ -39,7 +39,7 @@
 		2F1E01C71EA53FA600FE504A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2F9C5EEB1EA0FB34003BD61B /* TaxiDelSol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiDelSol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F9C5EEE1EA0FB34003BD61B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F9C5EF01EA0FB34003BD61B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2F9C5EF01EA0FB34003BD61B /* TaxiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiViewController.swift; sourceTree = "<group>"; };
 		2F9C5EF21EA0FB34003BD61B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		2F9C5EF51EA0FB34003BD61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F9C5EF71EA0FB34003BD61B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				2F9C5EEE1EA0FB34003BD61B /* AppDelegate.swift */,
-				2F9C5EF01EA0FB34003BD61B /* FirstViewController.swift */,
+				2F9C5EF01EA0FB34003BD61B /* TaxiViewController.swift */,
 				2F9C5EF21EA0FB34003BD61B /* MapViewController.swift */,
 				2F9C5EF41EA0FB34003BD61B /* Main.storyboard */,
 				2F9C5EF71EA0FB34003BD61B /* Assets.xcassets */,
@@ -284,7 +284,7 @@
 			files = (
 				2F9C5EF31EA0FB34003BD61B /* MapViewController.swift in Sources */,
 				2F9C5EEF1EA0FB34003BD61B /* AppDelegate.swift in Sources */,
-				2F9C5EF11EA0FB34003BD61B /* FirstViewController.swift in Sources */,
+				2F9C5EF11EA0FB34003BD61B /* TaxiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
